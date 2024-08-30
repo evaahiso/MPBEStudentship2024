@@ -1,0 +1,49 @@
+instruction,input,output,text
+Give me three questions that will help a student answer the input question.,"What is the maximum time that can be measured by Timer 1, and how does this relate to the clock frequency?","1. What is the resolution of Timer 1?
+2. How many clock cycles does it take for Timer 1 to count up to its maximum value?
+3. If the clock frequency is 16 MHz, how long would it take for Timer 1 to count up to its maximum value?","Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropiately completes the request.
+
+### Instruction:
+Give me three questions that will help a student answer the input question.
+### Input:
+What is the maximum time that can be measured by Timer 1, and how does this relate to the clock frequency?
+###Response:
+1. What is the resolution of Timer 1?
+2. How many clock cycles does it take for Timer 1 to count up to its maximum value?
+3. If the clock frequency is 16 MHz, how long would it take for Timer 1 to count up to its maximum value?"
+Give me three questions that will help a student answer the input question.,"If the analog-to-digital conversion process takes approximately 100 microseconds to complete, what is the approximate sampling frequency of the ADC in Hz? How does this compare to the maximum clock frequency of Timer 1?","1. What is the formula to calculate frequency?
+2. How do you convert from milliseconds to seconds?
+3. What is the sampling frequency of Timer 1?","Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropiately completes the request.
+
+### Instruction:
+Give me three questions that will help a student answer the input question.
+### Input:
+If the analog-to-digital conversion process takes approximately 100 microseconds to complete, what is the approximate sampling frequency of the ADC in Hz? How does this compare to the maximum clock frequency of Timer 1?
+###Response:
+1. What is the formula to calculate frequency?
+2. How do you convert from milliseconds to seconds?
+3. What is the sampling frequency of Timer 1?"
+Give me three questions that will help a student answer the input question.,"What is the maximum clock frequency that can be chosen for Timer 1, given that the system clock has a frequency of 8 MHz and the prescaler is used to divide the clock signal?","1. What is the maximum clock frequency dependent on?
+2. What would you set the prescaler to?
+3. How do you use the previous answers to calculate the maximum clock frequency?","Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropiately completes the request.
+
+### Instruction:
+Give me three questions that will help a student answer the input question.
+### Input:
+What is the maximum clock frequency that can be chosen for Timer 1, given that the system clock has a frequency of 8 MHz and the prescaler is used to divide the clock signal?
+###Response:
+1. What is the maximum clock frequency dependent on?
+2. What would you set the prescaler to?
+3. How do you use the previous answers to calculate the maximum clock frequency?"
+Give me three questions that will help a student answer the input question.,"If a program needs to count the number of cycles of the clock for a certain duration, and the desired duration is 10 milliseconds, how many clock cycles would be required to achieve this using Timer 1?'","1. What is the clock frequency f Timer 1?
+2. What is the formula to calculate the number of clock cycles?
+3. How can you use this formula to arrive at your answer?","Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropiately completes the request.
+
+### Instruction:
+Give me three questions that will help a student answer the input question.
+### Input:
+If a program needs to count the number of cycles of the clock for a certain duration, and the desired duration is 10 milliseconds, how many clock cycles would be required to achieve this using Timer 1?'
+###Response:
+1. What is the clock frequency f Timer 1?
+2. What is the formula to calculate the number of clock cycles?
+3. How can you use this formula to arrive at your answer?"

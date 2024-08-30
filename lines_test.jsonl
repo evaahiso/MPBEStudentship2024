@@ -1,0 +1,475 @@
+[
+  {
+    "question": "I think a microcontroller includes both a CPU and peripherals. Is that correct?",
+    "answer": "Yes, you're on the right track! A microcontroller typically includes a CPU, memory, and peripherals."
+  },
+  {
+    "question": "Can I say that all Arduino boards use the ATMega328 microcontroller?",
+    "answer": "Check the notes carefully. Is the ATMega328 used in every Arduino board or just some?"
+  },
+  {
+    "question": "In the Arduino Uno, what role does the ATMega328 play?",
+    "answer": "Think about the relationship between the Arduino platform and the microcontroller it uses."
+  },
+  {
+    "question": "If I want to use a different microcontroller, can I still use the Arduino interface?",
+    "answer": "Consider what the notes say about the limitations of the Arduino interface. Does it support all microcontrollers?"
+  },
+  {
+    "question": "How is an array declared in the Arduino programming language?",
+    "answer": "Think about declaring a variable. Does that give you any hints?"
+  },
+  {
+    "question": "Is the index of an array always zero-based in Arduino programming?",
+    "answer": "Yes, the notes confirm that arrays in Arduino are zero-indexed."
+  },
+  {
+    "question": "I tried adding 200 and 250 in an 8-bit variable, but the result seems wrong. Why?",
+    "answer": "Did you check whether the result fits within the 8-bit range?"
+  },
+  {
+    "question": "If I divide 1 by 2 in Arduino, will I get 0.5?",
+    "answer": "Consider the type of division being used. What does the note say about integer division?"
+  },
+  {
+    "question": "Can the Arduino interface access all features of the ATMega328 microcontroller?",
+    "answer": "Think about whether the notes mention any limitations of using the Arduino interface."
+  },
+  {
+    "question": "How can I control which commands are executed during runtime in Arduino?",
+    "answer": "What does the section on control flow mention about selection statements?"
+  },
+  {
+    "question": "Is it necessary to always have an 'else' statement in an if-else structure?",
+    "answer": "Think about the purpose of 'else' statements. Does that give you any hints?"
+  },
+  {
+    "question": "Is it true that microcontrollers are only used in simple devices like toys?",
+    "answer": "Think about what a microcontroller is, and its purpose. Could you apply it to a complex device?"
+  },
+  {
+    "question": "When programming at the register level, do we still use the Arduino interface?",
+    "answer": "Think about the notes' distinction between high-level and low-level programming."
+  },
+  {
+    "question": "Why would I want to program a microcontroller directly instead of using Arduino?",
+    "answer": "Think about the benefits that register level programming provides."
+  },
+  {
+    "question": "If the notes say the result must fit in the variable type, does that mean all operations can overflow?",
+    "answer": "Consider what kind of operations the notes specifically warn about in relation to variable types."
+  },
+  {
+    "question": "An array's size be changed after it's declared in Arduino, right?",
+    "answer": "No, that is not right. An array's size is fixed after it has been declared."
+  },
+  {
+    "question": "I'm not sure if my understanding of interrupts is correct. Can you help me?",
+    "answer": "What specific part of the interrupt module are you unsure about?"
+  },
+  {
+    "question": "The notes mention 'double buffering.' What exactly is this?",
+    "answer": "Think about the context in which double buffering is mentioned. How is it applied?"
+  },
+  {
+    "question": "What does the 'void' keyword mean in the Arduino programming language?",
+    "answer": "Consider what the notes explain about function return types. What does 'void' indicate?"
+  },
+  {
+    "question": "Can I store a floating-point number in an int variable in Arduino?",
+    "answer": "Think about what happens when you try to store a value in a variable of a different type. What does the note say about type compatibility?"
+  },
+  {
+    "question": "Why do we use the 'setup()' function in Arduino?",
+    "answer": "What does the notes say is typically initialized in the 'setup()' function?"
+  },
+  {
+    "question": "If I write code in the 'loop()' function, will it only run once?",
+    "answer": "How does the note describe the behavior of the 'loop()' function?"
+  },
+  {
+    "question": "What happens if I don’t include a 'setup()' function in my Arduino sketch?",
+    "answer": "Check the notes for what is mandatory in an Arduino sketch. Does it mention anything about the 'setup()' function?"
+  },
+  {
+    "question": "Is there a limit to how much memory my Arduino sketch can use?",
+    "answer": "Consider what the notes say about the memory available on the microcontroller. Is there a constraint mentioned?"
+  },
+  {
+    "question": "How can I ensure that my variables don't change unexpectedly in Arduino?",
+    "answer": "What does the note suggest about declaring variables that should not be altered?"
+  },
+  {
+    "question": "What is the difference between 'digitalWrite' and 'analogWrite' in Arduino?",
+    "answer": "Consider what the notes mention about the type of signal each function controls."
+  },
+  {
+    "question": "Can I use a floating-point number in a 'for' loop as the counter in Arduino?",
+    "answer": "What do the notes say about the common data types used in loops?"
+  },
+  {
+    "question": "If my Arduino sketch isn’t working, what are some troubleshooting steps I can take?",
+    "answer": "Think about the debugging strategies mentioned in the notes. What does it recommend checking first?"
+  },
+  {
+    "question": "Why do we need to debounce a button input in Arduino?",
+    "answer": "What do the notes explain about the behavior of physical buttons and how the microcontroller reads them?"
+  },
+  {
+    "question": "What is the purpose of using 'const' before a variable declaration in Arduino?",
+    "answer": "What does the note say about the effect of using 'const' on a variable?"
+  },
+  {
+    "question": "Can I define my own functions in Arduino? If so, how?",
+    "answer": "What does the note say about custom functions and where they can be defined?"
+  },
+  {
+    "question": "What does PWM stand for, and how is it used in Arduino?",
+    "answer": "Consider the context in which PWM is mentioned. What application does the note give?"
+  },
+  {
+    "question": "Is there a difference between '==' and '=' in Arduino?",
+    "answer": "What do the notes say about assignment versus comparison operators?"
+  },
+  {
+    "question": "Why should I use a pull-up resistor with a push button in Arduino circuits?",
+    "answer": "Does the note explain the purpose of a pull-up resistor in relation to signal stability?"
+  },
+  {
+    "question": "What does the 'delay()' function do, and are there alternatives to using it?",
+    "answer": "Consider the effects of the 'delay()' function mentioned in the notes. Is it always the best option?"
+  },
+  {
+    "question": "How do I decide whether to use a global or local variable in Arduino?",
+    "answer": "What do the notes suggest about the scope of variables and their intended use?"
+  },
+  {
+    "question": "Is there a way to use libraries in my Arduino sketch?",
+    "answer": "Check the notes for any mention of libraries. How are they included in a sketch?"
+  },
+  {
+    "question": "What is the significance of the 'serial.begin()' function in Arduino?",
+    "answer": "What do the notes describe as the purpose of starting a serial communication?"
+  },
+  {
+    "question": "How can I read the state of a digital input pin in Arduino?",
+    "answer": "What does the note say about using functions to read digital inputs?"
+  },
+  {
+    "question": "What is an interrupt, and how can I use it in my Arduino project?",
+    "answer": "Consider the section that explains interrupts. How does it describe their use in handling events?"
+  },
+  {
+    "question": "If I have multiple sensors connected to my Arduino, how should I handle the data from them?",
+    "answer": "What does the note suggest about managing multiple inputs? Are there strategies mentioned?"
+  },
+  {
+    "question": "What does 'volatile' mean when declaring a variable in Arduino?",
+    "answer": "Think about what the notes explain about the 'volatile' keyword. When is it necessary?"
+  },
+  {
+    "question": "Can I connect an Arduino directly to a high-voltage device?",
+    "answer": "What warnings or safety guidelines do the notes provide about connecting to high-voltage devices?"
+  },
+  {
+    "question": "What is the function of the 'loop()' in Arduino, and how does it differ from 'setup()'?",
+    "answer": "Consider the different purposes of these two functions. What do the notes say about when each is executed?"
+  },
+  {
+    "question": "How does the Arduino handle analog inputs? Are they truly analog?",
+    "answer": "What do the notes say about the analog-to-digital conversion process in Arduino?"
+  },
+  {
+    "question": "Why do we need to use 'pinMode()' in Arduino? Can’t we just write to any pin?",
+    "answer": "Think about what the notes say about configuring pins before use. Why is 'pinMode()' important?"
+  },
+  {
+    "question": "Is there a way to reduce power consumption in an Arduino project?",
+    "answer": "Consider what the notes say about managing power. Are there any specific functions or techniques mentioned?"
+  },
+  {
+    "question": "What happens if I try to write to a pin that’s set as an input in Arduino?",
+    "answer": "Think about what the notes mention about pin configuration. What might happen if a pin is incorrectly used?"
+  },
+  {
+    "question": "Can I use multiple 'serial.begin()' calls in a single Arduino sketch?",
+    "answer": "What do the notes say about serial communication and its initialization? Is there any guidance on using it multiple times?"
+  },
+  {
+    "question": "How does the Arduino differentiate between different types of sensors connected to it?",
+    "answer": "Consider what the notes describe about how sensors communicate with Arduino. Is there a protocol or method mentioned?"
+  },
+  {
+    "question": "What is the maximum current that an Arduino pin can safely handle?",
+    "answer": "What does the note say about the electrical specifications of the Arduino pins?"
+  },
+  {
+    "question": "Can the Arduino store data even after it's powered off?",
+    "answer": "What do the notes say about the types of memory available in the Arduino? Is there a type of memory that retains data?"
+  },
+  {
+    "question": "Is it possible to run multiple tasks simultaneously on an Arduino?",
+    "answer": "Think about how Arduino handles task execution. What does the note say about managing multiple operations?"
+  },
+  {
+    "question": "Why is it important to use pull-up or pull-down resistors with certain inputs?",
+    "answer": "Consider the explanation provided in the notes. What problem do these resistors solve?"
+  },
+  {
+    "question": "What does it mean to 'debounce' a button, and how do you do it in Arduino?",
+    "answer": "What do the notes explain about the issues with button inputs and how debouncing helps?"
+  },
+  {
+    "question": "How can I generate a PWM signal on Arduino, and what is it used for?",
+    "answer": "What does the note say about the applications of PWM and how it can be generated?"
+  },
+  {
+    "question": "Can I control a DC motor directly from an Arduino pin?",
+    "answer": "What does the note mention about the power requirements for motors? Is an Arduino pin sufficient?"
+  },
+  {
+    "question": "How do I protect my Arduino from voltage spikes or surges?",
+    "answer": "Consider any safety measures mentioned in the notes. What does it recommend for protecting the Arduino?"
+  },
+  {
+    "question": "How do I initialize an array with values in Arduino?",
+    "answer": "What does the note mention about array initialization syntax?"
+  },
+  {
+    "question": "What is the purpose of the 'return' statement in a function?",
+    "answer": "Think about what the notes say regarding function outputs. What role does 'return' play?"
+  },
+  {
+    "question": "If I use 'delay(1000)', how long does my program pause?",
+    "answer": "What does the note indicate about the unit of measurement for the delay function?"
+  },
+  {
+    "question": "Can I perform bitwise operations in Arduino, and if so, how?",
+    "answer": "Consider what the notes explain about bitwise operators. Which examples are provided?"
+  },
+  {
+    "question": "What happens if I divide by zero in an Arduino program?",
+    "answer": "What do the notes suggest about handling operations that might be undefined, like division by zero?"
+  },
+  {
+    "question": "How do I read an analog value in Arduino, and what does the value represent?",
+    "answer": "Think about what the notes say regarding the range of values returned by an analogRead."
+  },
+  {
+    "question": "What are 'void pointers', and can I use them in Arduino?",
+    "answer": "Consider how the notes explain pointers in C/C++. Do they mention 'void pointers' and their use?"
+  },
+  {
+    "question": "Can Arduino handle floating-point arithmetic accurately?",
+    "answer": "What does the note say about the precision of floating-point operations on the Arduino platform?"
+  },
+  {
+    "question": "How does the 'switch' statement work in Arduino?",
+    "answer": "What does the note explain about how the 'switch' statement chooses between different cases?"
+  },
+  {
+    "question": "Is there a difference between 'unsigned int' and 'int' in Arduino?",
+    "answer": "What does the note say about the range of values that 'unsigned int' can hold compared to 'int'?"
+  },
+  {
+    "question": "How can I detect when a button is pressed and released in Arduino?",
+    "answer": "What do the notes mention about detecting state changes in input devices like buttons?"
+  },
+  {
+    "question": "What is 'EEPROM', and how can I use it in Arduino?",
+    "answer": "Consider what the notes explain about non-volatile memory. How does Arduino access EEPROM?"
+  },
+  {
+    "question": "How do I map a value from one range to another in Arduino?",
+    "answer": "What function do the notes mention that allows mapping values between ranges?"
+  },
+  {
+    "question": "What does the 'PROGMEM' keyword do in Arduino?",
+    "answer": "What does the note explain about storing data in flash memory with 'PROGMEM'?"
+  },
+  {
+    "question": "How can I make my Arduino code more efficient?",
+    "answer": "Consider the optimization tips mentioned in the notes. What are some key suggestions?"
+  },
+  {
+    "question": "Is there a limit to how many times I can write to EEPROM in Arduino?",
+    "answer": "What do the notes mention about the endurance or lifecycle of EEPROM memory?"
+  },
+  {
+    "question": "How does Arduino handle timing, and what functions are used?",
+    "answer": "What do the notes explain about time-related functions like 'millis()' or 'micros()'?"
+  },
+  {
+    "question": "Why would I use a 'do-while' loop instead of a regular 'while' loop?",
+    "answer": "What does the note suggest about the difference in behavior between 'do-while' and 'while' loops?"
+  },
+  {
+    "question": "What is the difference between 'Serial.print()' and 'Serial.println()'?",
+    "answer": "Consider the examples in the notes. How does the output differ between these two functions?"
+  },
+  {
+    "question": "Can I overload functions in Arduino like in regular C++?",
+    "answer": "What do the notes mention about function overloading in Arduino? Are there any limitations?"
+  },
+  {
+    "question": "What is the significance of the 'const' keyword in Arduino?",
+    "answer": "What does the note say about how 'const' affects a variable?"
+  },
+  {
+    "question": "Why do we need to calibrate sensors when using them with Arduino?",
+    "answer": "What do the notes mention about the accuracy and consistency of sensor readings?"
+  },
+  {
+    "question": "How do I measure the duration of an event in Arduino?",
+    "answer": "Consider what the notes suggest about using timing functions to measure events."
+  },
+  {
+    "question": "What is the role of the 'noInterrupts()' function in Arduino?",
+    "answer": "What does the note explain about temporarily disabling interrupts in critical sections of code?"
+  },
+  {
+    "question": "How can I generate random numbers in Arduino?",
+    "answer": "What do the notes say about the functions used to generate random numbers?"
+  },
+  {
+    "question": "Why might I want to use 'attachInterrupt()' in an Arduino project?",
+    "answer": "Consider what the notes explain about handling external events efficiently. What role do interrupts play?"
+  },
+  {
+    "question": "What are the common uses of PWM in Arduino projects?",
+    "answer": "What do the notes suggest about the types of devices or applications that benefit from PWM?"
+  },
+  {
+    "question": "How do I convert an integer to a string in Arduino?",
+    "answer": "What does the note explain about the functions that handle data type conversions?"
+  },
+  {
+    "question": "How can I minimize power consumption in my Arduino project?",
+    "answer": "Consider what the notes mention about sleep modes and power management techniques."
+  },
+  {
+    "question": "What is the purpose of the 'shiftOut()' function in Arduino?",
+    "answer": "What do the notes say about how 'shiftOut()' is used to control multiple outputs?"
+  },
+  {
+    "question": "What does 'analogRead()' return in Arduino, and what is its range?",
+    "answer": "Think about what the notes mention regarding the resolution and range of the 'analogRead()' function."
+  },
+  {
+    "question": "How does the 'millis()' function work in Arduino?",
+    "answer": "Consider what the notes explain about the 'millis()' function and how it keeps track of time."
+  },
+  {
+    "question": "What is the purpose of 'volatile' variables in interrupt service routines?",
+    "answer": "What do the notes mention about ensuring data consistency between main code and interrupt routines?"
+  },
+  {
+    "question": "How can I implement a state machine in an Arduino sketch?",
+    "answer": "What strategies do the notes suggest for managing complex logic using states?"
+  },
+  {
+    "question": "Can I use strings in Arduino, and what are the potential pitfalls?",
+    "answer": "What do the notes say about using 'String' objects versus character arrays?"
+  },
+  {
+    "question": "What does the 'map()' function do, and when would you use it?",
+    "answer": "What examples do the notes provide that illustrate the use of the 'map()' function?"
+  },
+  {
+    "question": "What is a 'watchdog timer', and how can it be used in Arduino?",
+    "answer": "Consider what the notes explain about ensuring system reliability with a watchdog timer."
+  },
+  {
+    "question": "How do I read a single character from the serial monitor?",
+    "answer": "What function does the note mention that reads individual characters from the serial buffer?"
+  },
+  {
+    "question": "What is the difference between 'HIGH' and 'LOW' in digitalWrite()?",
+    "answer": "What do the notes say about how these constants control the voltage on a pin?"
+  },
+  {
+    "question": "Why is it important to manage memory carefully in Arduino sketches?",
+    "answer": "Consider what the notes explain about the limited memory resources on microcontrollers."
+  },
+  {
+    "question": "How can I create a delay without using the 'delay()' function?",
+    "answer": "What alternative methods do the notes suggest for creating non-blocking delays?"
+  },
+  {
+    "question": "What does 'pinMode()' do, and why is it necessary?",
+    "answer": "Think about the importance of pin configuration mentioned in the notes. What role does 'pinMode()' play?"
+  },
+  {
+    "question": "Can I interface an Arduino with an I2C device, and how?",
+    "answer": "What do the notes explain about the I2C protocol and using the 'Wire' library?"
+  },
+  {
+    "question": "What does the 'randomSeed()' function do in Arduino?",
+    "answer": "Consider what the notes mention about generating random numbers and how seeding affects the sequence."
+  },
+  {
+    "question": "What is the significance of the 'unsigned' keyword in variable declarations?",
+    "answer": "What do the notes explain about how 'unsigned' variables differ from signed ones?"
+  },
+  {
+    "question": "How can I combine multiple conditions in an 'if' statement?",
+    "answer": "What do the notes say about using logical operators to evaluate multiple conditions?"
+  },
+  {
+    "question": "Why might an Arduino sketch reset unexpectedly?",
+    "answer": "Consider what the notes suggest about potential causes for unexpected resets."
+  },
+  {
+    "question": "How do I write a custom library for Arduino?",
+    "answer": "What steps do the notes outline for organizing and creating a custom library?"
+  },
+  {
+    "question": "What is 'pulseIn()', and when would you use it?",
+    "answer": "Think about what the notes describe about measuring the duration of a pulse on a pin."
+  },
+  {
+    "question": "How can I reduce the noise in analog sensor readings?",
+    "answer": "What techniques do the notes recommend for filtering or smoothing sensor data?"
+  },
+  {
+    "question": "What is the purpose of the 'noTone()' function?",
+    "answer": "What does the note say about stopping sound output on a pin using 'noTone()'?"
+  },
+  {
+    "question": "How do I calculate the length of an array in Arduino?",
+    "answer": "Is there a method to obtain the length of an array?"
+  },
+  {
+    "question": "What is the difference between 'global' and 'local' variables in Arduino?",
+    "answer": "Think about declaring a variable inside a function. Does that variable work outside the function too?."
+  },
+  {
+    "question": "How can I implement a software debounce for a button in Arduino?",
+    "answer": "What approaches do the notes suggest for handling debounce in software?"
+  },
+  {
+    "question": "Why is it important to reset the watchdog timer regularly?",
+    "answer": "What is the purpose of of the watchdog timer?"
+  },
+  {
+    "question": "How do I perform integer division in Arduino?",
+    "answer": "WHat symbol do you need to perform integer division? "
+  },
+  {
+    "question": "How can I use a for loop to iterate over an array in Arduino?",
+    "answer": "Think about the elements and the shape of the array."
+  },
+  {
+    "question": "What is the significance of the 'long' data type in Arduino?",
+    "answer": "Consider what the notes say about the range and use cases for the 'long' data type."
+  },
+  {
+    "question": "How can I interface an Arduino with an external sensor?",
+    "answer": "Think about methods and protocols. Do you know of any that could help?"
+  },
+  {
+    "question": "How do I manage multiple tasks in an Arduino sketch?",
+    "answer": "What strategies do the notes outline for handling multiple tasks without blocking execution?"
+  }
+]
+

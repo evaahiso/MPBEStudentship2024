@@ -1,0 +1,46 @@
+{
+  "train": [
+    {
+      "title": "Geography",
+      "paragraphs": [
+        {
+          "context": "The capital of France is Paris. It is known for its culture and history.",
+          "qas": [
+            {
+              "id": "1",
+              "question": "What is the capital of France?",
+              "answers": [
+                {
+                  "text": "Paris",
+                  "answer_start": 24
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Programming",
+      "paragraphs": [
+        {
+          "context": "Python is a programming language that lets you work quickly and integrate systems more effectively.",
+          "qas": [
+            {
+              "id": "2",
+              "question": "What is Python?",
+              "answers": [
+                {
+                  "text": "a programming language",
+                  "answer_start": 10
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

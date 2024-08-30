@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "title": "Dataset Title",
+      "paragraphs": [
+        {
+          "context": "The capital of France is Paris.",
+          "qas": [
+            {
+              "id": "6029eb60-6a8e-44c7-bd1c-279d67dd2f4a",
+              "question": "What is the capital of France?",
+              "answers": [
+                {
+                  "text": "Paris",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "Python is a programming language that lets you work quickly.",
+          "qas": [
+            {
+              "id": "1efa29c3-2598-46e4-b0c0-b6986ac96104",
+              "question": "What is Python?",
+              "answers": [
+                {
+                  "text": "a programming language",
+                  "answer_start": 10
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
